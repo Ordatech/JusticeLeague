@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6B728E"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="221dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/batman" />
+
+    <TextView
+        android:id="@+id/heroNName_SecActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:gravity="left"
+        android:textColor="#EAD625"
+        android:text="Batman" />
+
+    <TextView
+        android:id="@+id/heroPName_SecActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:padding="5dp"
+        android:gravity="left"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:text="Bruce Wayne" />
+
+    <TextView
+        android:id="@+id/heroDes_SecActivty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Hero Description"
+        android:textSize="20sp" />
+</LinearLayout>
